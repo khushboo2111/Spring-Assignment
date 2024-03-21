@@ -1,0 +1,29 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+    <context:property-placeholder location="classpath:application.properties"/>
+
+    <bean id="myMap1" class="java.util.HashMap">
+        <constructor-arg>
+            <map>
+                <entry key="1" value="100"/>
+                <entry key="2" value="200"/>
+                <entry key="3" value="300"/>
+                <entry key="4" value="400"/>
+                <entry key ="5" value="${one}"/>
+                <entry key ="6" value="${two}"/>
+                <entry key ="7" value="${three}"/>
+            </map>
+        </constructor-arg>
+    </bean>
+    <bean id="myMap" class="sampleproject.Map">
+        <constructor-arg ref="myMap1"/>
+    </bean>
+</beans>
+
+
+
