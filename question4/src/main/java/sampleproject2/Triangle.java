@@ -35,6 +35,11 @@ public class Triangle{
 	public void setSide3(float side3) {
 		this.side3 = side3;
 	}
+	
+	public static float calculatePerimeter(float side1, float side2, float side3) {
+		float total = side1 + side2 + side3;
+		return total;
+	}
 	@Override
 	public String toString() {
 		return "Triangle [side1=" + side1 + ", side2=" + side2 + ", side3=" + side3 + "]";

@@ -36,5 +36,37 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khushboo.g_INT1596/.m2/repository/org/aspectj/aspectjweaver/1.9.21.1/aspectjweaver-1.9.21.1.jar" sourcepath="C:/Users/khushboo.g_INT1596/.m2/repository/org/aspectj/aspectjweaver/1.9.21.1/aspectjweaver-1.9.21.1-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/khushboo.g_INT1596/.m2/repository/org/aspectj/aspectjweaver/1.9.21.1/aspectjweaver-1.9.21.1-javadoc.jar!/"/>
+			<attribute name="maven.groupId" value="org.aspectj"/>
+			<attribute name="maven.artifactId" value="aspectjweaver"/>
+			<attribute name="maven.version" value="1.9.21.1"/>
+			<attribute name="maven.scope" value="runtime"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khushboo.g_INT1596/.m2/repository/org/springframework/spring-aop/5.2.25.RELEASE/spring-aop-5.2.25.RELEASE.jar" sourcepath="C:/Users/khushboo.g_INT1596/.m2/repository/org/springframework/spring-aop/5.2.25.RELEASE/spring-aop-5.2.25.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/khushboo.g_INT1596/.m2/repository/org/springframework/spring-aop/5.2.25.RELEASE/spring-aop-5.2.25.RELEASE-javadoc.jar!/"/>
+			<attribute name="maven.groupId" value="org.springframework"/>
+			<attribute name="maven.artifactId" value="spring-aop"/>
+			<attribute name="maven.version" value="5.2.25.RELEASE"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/khushboo.g_INT1596/.m2/repository/org/aspectj/aspectjweaver/1.9.21/aspectjweaver-1.9.21.jar" sourcepath="C:/Users/khushboo.g_INT1596/.m2/repository/org/aspectj/aspectjweaver/1.9.21/aspectjweaver-1.9.21-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/khushboo.g_INT1596/.m2/repository/org/aspectj/aspectjweaver/1.9.21/aspectjweaver-1.9.21-javadoc.jar!/"/>
+			<attribute name="maven.groupId" value="org.aspectj"/>
+			<attribute name="maven.artifactId" value="aspectjweaver"/>
+			<attribute name="maven.version" value="1.9.21"/>
+			<attribute name="maven.scope" value="runtime"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
